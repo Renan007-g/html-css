@@ -1,0 +1,24 @@
+@charset "UTF-8"
+
+*{
+height: 100%;
+}
+@font-face {
+    font-family: 'fontex';
+    src: url('Inter-Regular.ttf') format('truetype'), url('Inter-Bold.ttf') format('truetype');
+}
+body{
+    font-weight: normal;
+}
+h1{
+    font-family: 'fontex';
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+p{
+    font-family: 'fontex';
+    font-size: 1em;
+    font-weight: light;
+}

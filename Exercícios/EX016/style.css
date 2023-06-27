@@ -1,0 +1,29 @@
+@charset "UTF-8"
+
+*{
+height: 100%;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    /*Medidas absoluta
+    cm, mm, in, px, pt, pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+   16px actualy = 1em*/
+  
+    /*tamanhos: lighter, normal, bolder, bold. */
+    /* weight: peso, width: largura, height: altura */
+}
+h1, h2{
+    font-size: 3em;
+    font-weight: 500;
+    font-style: bold;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    /* shorthand font
+
+    - font-style > font-weight > font-size >
+    font-family. */
+   
+}
